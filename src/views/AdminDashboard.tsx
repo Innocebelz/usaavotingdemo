@@ -3,7 +3,7 @@ import { ELECTION_DATA, RUNOFF_ELECTION_DATA } from '../constants';
 import { useNavigate } from 'react-router-dom';
 import { Loader2, TrendingUp, Users, Download, Lock, Unlock, LogOut, RefreshCw, ShieldCheck, XCircle } from 'lucide-react';
 
-const BACKEND_URL =  'https://usaavotingdemo.onrender.com';
+const BACKEND_URL = import.meta.env.VITE_API_BASE_URL || 'https://usaavotingdemo.onrender.com';
 
 interface TurnoutData {
     total_eligible:     number;
