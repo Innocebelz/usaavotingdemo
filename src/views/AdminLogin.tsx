@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Loader2, ShieldAlert, Eye, EyeOff } from 'lucide-react';
 
-const BACKEND_URL = import.meta.env.VITE_API_BASE_URL || 'https://laa-voting-system.onrender.com';
+const BACKEND_URL =  'https://usaavotingdemo.onrender.com';
 
 const AdminLogin: React.FC = () => {
     const [username, setUsername]   = useState('');

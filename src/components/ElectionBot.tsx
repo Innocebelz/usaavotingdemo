@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Bot, MessageSquare, Send, User, X } from 'lucide-react';
 
-const BACKEND_URL = import.meta.env.VITE_API_BASE_URL || 'https://laa-voting-system.onrender.com';
+const BACKEND_URL = 'https://usaavotingdemo.onrender.com';
 const MAX_MESSAGE_LENGTH = 500;
 
 const QUICK_ACTIONS = [

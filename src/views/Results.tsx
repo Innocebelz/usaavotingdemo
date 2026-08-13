@@ -4,7 +4,7 @@ import { CheckCircle2, TrendingUp, Users, LogOut, ShieldCheck } from 'lucide-rea
 import { useNavigate } from 'react-router-dom';
 import { ELECTION_DATA, RUNOFF_ELECTION_DATA } from '../constants';
 
-const BACKEND_URL = import.meta.env.VITE_API_BASE_URL || 'https://laa-voting-system.onrender.com';
+const BACKEND_URL =  'https://usaavotingdemo.onrender.com';
 
 // ── Animated count-up hook ────────────────────────────────────────────────────
 function useCountUp(target: number, duration = 1400, delay = 200) {

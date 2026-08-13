@@ -5,7 +5,7 @@ import {
     CheckCircle2, XCircle, Loader2, Clock, Share2, Check, ShieldCheck, MinusCircle, Vote
 } from 'lucide-react';
 
-const BACKEND_URL = import.meta.env.VITE_API_BASE_URL || 'https://laa-voting-system.onrender.com';
+const BACKEND_URL =  'https://usaavotingdemo.onrender.com';
 
 function useCountUp(target: number, duration = 1200, delay = 0) {
     const [value, setValue] = useState(0);

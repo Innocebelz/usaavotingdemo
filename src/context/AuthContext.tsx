@@ -6,7 +6,7 @@ import { ELECTION_DATA, RUNOFF_ELECTION_DATA } from '../constants';
 // Reads from VITE_API_BASE_URL when set (so a demo deployment can point at
 // its own separate backend via a Vercel env var), falling back to the real
 // production backend for any deployment that doesn't set it.
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://laa-voting-system.onrender.com';
+const API_BASE_URL = 'https://usaavotingdemo.onrender.com';
 
 // ── Session expiry ────────────────────────────────────────────────────────────
 // Voter sessions expire after 12 hours. After that, the stored auth state is
