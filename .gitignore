@@ -1,0 +1,20 @@
+# Security
+.env
+.env.example
+voters.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node/React
+node_modules/
+dist/
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
